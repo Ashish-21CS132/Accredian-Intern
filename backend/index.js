@@ -12,7 +12,7 @@ const port = 3004;
 app.use(bodyParser.json());
 app.use(cors({
   credentials:true,
-  origin: 'http://localhost:3000',
+  origin: 'https://famous-cucurucho-b12d94.netlify.app/',
   
 }));
 
