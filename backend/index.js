@@ -7,7 +7,7 @@ const cors = require('cors');
 
 const prisma = new PrismaClient();
 const app = express();
-const port = 3004;
+const port = 4001;
 
 app.use(bodyParser.json());
 app.use(cors({
